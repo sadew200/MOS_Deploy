@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="style04.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div id="search">
+        <input id="SEinput" type="text" placeholder="search a food">
+        <button id="SEbtn">Search</button>
+       
+    </div>
+    <div id="icon">
+    <img id="img" src="logo.jpg" width="160">
+    <h1 id="rname">CARBONE</h1>
+    <table id="table">
+    <tr>
+        <td>
+</td>    
+</tr>
+    </table>
+</div>
+    <div id="buttons">
+        <a href="#" class="B" onclick="Function()">Menue</a>
+        <a href="#" class="B" onclick="Function1()">Sign-Up</a>
+        <a href="#" class="B" onclick="Function2()">About us</a>
+        <a href="#" class="B" onclick="Function3()">Contact us</a>
+
+    </div>
+    <h1 id="tag">Your Items</h1>
+    <table id="items">
+<tr><td>"s"</td></tr>
+    </table>
+
+    <div id="move2">
+        <label>Name : </label><br>
+        <input id="Cname0" class="fromInput" type="text" placeholder="enter your name"><br><br><br>
+        <label>Phone Number : </label>
+        <input id="Cpno0" class="fromInput"  type="text" placeholder="enter your phone number" ><br><br><br>
+        <label>email : </label><br>
+        <input class="fromInput"  type="email" placeholder="enter your email address"><br><br><br>
+        <label>Feedback : </label><br>
+        <input class="fromInput"  type="text" placeholder="enter your feedback"><br><br><br><br>
+        <button id="submit">submit</button><br><br>
+
+    </div>
+
+    <div id="move">
+        <button class="B3" id="take" onclick="Function7()"><i class="fa-solid fa-bag-shopping"></i>  Take Away</button>
+        <button class="B3" id="de" onclick="Function4()"><i class="fa-solid fa-location-pin"></i>  delivery</button>
+        </div>
+
+
+<h5 id="count">0</h5>
+    <script src="https://kit.fontawesome.com/d3e2be56a2.js" crossorigin="anonymous"></script>
+    <script src="cart.js"></script>
+    <script>
+               function Function(){
+            window.open("menu.html");
+        }
+        function Function1(){
+            window.open("login.html","_blank")
+        }
+        function Function2(){
+            window.open("aboutUs.html","_blank")
+        }
+        function Function3(){
+            window.open("contact.html","_blank")
+        }
+        function Function4(){
+            window.open("delivery.html","_blank")
+        }
+        function Function5(){
+            window.open("cart.html","_blank")
+        }
+        function Function6(){
+            window.open("BookTable.html","_blank")
+        }
+        function Function7(){
+            window.open("order.html","_blank")
+        }
+    </script>
+</body>
+</html>

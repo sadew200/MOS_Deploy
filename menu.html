@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="style03.css">
+    <link rel="icon" href="logo.jpg">
+
+</head>
+<body>
+    <div id="search">
+        <input id="SEinput" type="text" placeholder="search a food">
+        <button id="SEbtn">Search</button>
+       
+    </div>
+    <div id="icon">
+    <img id="img" src="logo.jpg" width="160">
+    <h1 id="rname">CARBONE</h1>
+    <table id="table">
+    <tr>
+        <td>
+    <img id="menuImg" src="set.jpeg" width="400px">
+</td>    
+</tr>
+    </table>
+</div>
+    <div id="buttons">
+        <a href="#" class="B" onclick="Function()">Menue</a>
+        <a href="#" class="B" onclick="Function1()">Sign-Up</a>
+        <a href="#" class="B" onclick="Function2()">About us</a>
+        <a href="#" class="B" onclick="Function3()">Contact us</a>
+        <div id="move">
+            <button  id="cart" onclick="Function5()"><i id="ca" class="fa-solid fa-cart-shopping"></i>  Cart</button>
+        <button class="B3" id="book" onclick="Function6()"><i class="fa fa-cutlery" aria-hidden="true"></i>  Book a Table</button>
+        <button class="B3" id="de" onclick="Function7()"><i class="fa-solid fa-bag-shopping"></i>  Orders</button>
+        </div>
+    </div>
+    <h1 id="ourM">Our Menu</h1>
+    <div id="mainMenu">
+        <button class="B2" id="our"  onclick="Function()">Our Menu</button>
+        <button class="B2" id="kids" onclick="Function4()">Kids Menu</button>
+    </div>
+    <div id="Menu">
+
+
+
+
+
+<hr id="line">  
+<h1 id="todaySp">Today's Special</h1> 
+<img id="imgS" name="imgc" width="500" height="400">  
+<div id="Bmove">
+    <button class="btns" id="burgers"  onclick="burH()">Bugers</button>
+    <button class="btns" id="submarines" onclick="subH()">Submarines</button>
+    <button class="btns" id="fries" onclick="friH()">Fries</button>
+    <button class="btns" id="pasta" onclick="pasH()">Pasta</button>
+    <button class="btns" id="chicken" onclick="cikH()">Chicken</button>
+    <button class="btns" id="beverages" onclick="bevH()">Beverages</button>
+    <h1 id="cato">Bugers</h1>
+</div>    
+</div>                                                                                                                  
+
+<table id="Mtbl">
+    <tr>
+       <td class="foodTd"><button class="foodB" id="classicBurger"><pre class="pre"><h1 class="foodName">classic Burger(Large)</h1> 
+        <img class="foodImg" src="classicBurger.jpg" width="100px" height="80px">
+        <h2 class="itemId">Item Code : B1001    </h2> 
+        <h2 class="priceTag">Discount  : -        </h2> 
+        <h2 class="priceTag">Pirce     : Rs.<a class="price">750</a>  </h2>  
+    </pre></button>
+    <div id="btnsArea">
+    <button  id="c0" class="cartB">Cart</button>
+    <button  class="orderB">Order</button> </td> 
+    </div>
+
+    <td class="foodTd"><button class="foodB" id="classicBurger"><pre class="pre" ><h1 class="foodName">classic Burger(Regular)</h1> 
+        <img class="foodImg" src="classicBurger.jpg" width="100px" height="80px">
+        <h2 class="itemId">Item Code : B1002     </h2> 
+        <h2 class="priceTag">Discount  : 15%       </h2>  
+        <h2 class="priceTag">Pirce:<del class="delete">Rs.1500</del> Rs.<a class="price">1275</a></h2>  
+    </pre></button>
+    <div id="btnsArea">
+        <button id="c1"  class="cartB">Cart</button>
+        <button  class="orderB">Order</button> </td> 
+        </div></td> 
+
+    </tr>
+
+<!--tr-->
+<tr>
+    <td class="foodTd"><button class="foodB" id="classicBurger"><pre class="pre"><h1 class="foodName">Turkey Burger       </h1> 
+     <img class="foodImg" src="Turkey Burger.jpg" width="100px" height="80px">
+     <h2 class="itemId">Item Code : B1003    </h2> 
+     <h2 class="priceTag">Discount  : -        </h2> 
+     <h2 class="priceTag">Pirce     : Rs.<a class="price">1600</a>  </h2>  
+ </pre></button>   
+  <div id="btnsArea">
+    <button id="c2" class="cartB">Cart</button>
+    <button  class="orderB">Order</button> </td> 
+    </div></td> </td> 
+
+
+ <td class="foodTd"><button class="foodB" id="classicBurger"><pre class="pre"><h1 class="foodName">Chicken Burger(Large)</h1> 
+     <img class="foodImg" src="Chicken Burger.jpg" width="100px" height="80px">
+     <h2 class="itemId">Item Code : B1004     </h2> 
+     <h2 class="priceTag">Discount  : -         </h2>  
+     <h2 class="priceTag">Pirce     :  Rs.<a class="price">1400</a>  </h2>  
+ </pre></button>    
+ <div id="btnsArea">
+    <button id="c3" class="cartB">Cart</button>
+    <button  class="orderB">Order</button> </td> 
+    </div></td> </td> 
+
+ </tr>
+
+ <!--tr-->
+<tr>
+    <td class="foodTd"><button class="foodB" id="classicBurger"><pre class="pre"><h1 class="foodName">Chicken Burger (Regular)</h1> 
+     <img class="foodImg" src="Chicken Burger.jpg" width="100px" height="80px">
+     <h2 class="itemId">Item Code : B1005    </h2> 
+     <h2 class="priceTag">Discount  : 20%      </h2> 
+     <h2 class="priceTag">Pirce : <del class="delete">Rs.800</del> Rs.<a class="price">640</a></h2> 
+ </pre></button>
+ <div id="btnsArea">
+    <button id="c4" class="cartB">Cart</button>
+    <button  class="orderB">Order</button> </td> 
+    </div></td> </td> 
+
+
+
+ <td class="foodTd"><button class="foodB" id="classicBurger"><pre class="pre"><h1 class="foodName">Cheese Burger (Large)</h1> 
+     <img class="foodImg" src="Cheese Burger.jpg" width="100px" height="80px">
+     <h2 class="itemId">Item Code : B1006     </h2> 
+     <h2 class="priceTag">Discount  : -         </h2>  
+     <h2 class="priceTag">Pirce     :  Rs.<a class="price">1000</a>  </h2>  
+ </pre></button>
+ <div id="btnsArea">
+    <button id="c5" class="cartB">Cart</button>
+    <button  class="orderB">Order</button> </td> 
+    </div></td> </td> 
+
+ </tr>
+
+ <!--tr-->
+ <tr>
+    <td class="foodTd"><button class="foodB" ><pre class="pre"><h1 class="foodName">Cheese Burger(Regular)</h1> 
+     <img class="foodImg" src="Cheese Burger.jpg" width="100px" height="80px">
+     <h2 class="itemId">Item Code : B1007    </h2> 
+     <h2 class="priceTag">Discount  : 20%      </h2> 
+     <h2 class="priceTag">Pirce     : Rs.<a class="price">600</a>  </h2>
+ </pre></button>
+ <div id="btnsArea">
+    <button id="c6" class="cartB">Cart</button>
+    <button  class="orderB">Order</button> </td> 
+    </div></td> </td> 
+
+ <td class="foodTd"><button class="foodB" ><pre class="pre"><h1 class="foodName">Bacon Burger</h1> 
+     <img class="foodImg" src="Bacon Burger.jpg" width="100px" height="80px">
+     <h2 class="itemId">Item Code : B1008     </h2> 
+     <h2 class="priceTag">Discount  : 15%       </h2>  
+     <h2 class="priceTag">Pirce: <del class="delete">Rs.650</del> Rs.<a class="price">552.5</a></h2>   
+ </pre></button>
+ <div id="btnsArea">
+    <button id="c7" class="cartB">Cart</button>
+    <button  class="orderB">Order</button> </td> 
+    </div></td> </td> 
+
+ </tr>
+
+  <!--tr-->
+ <tr>
+    <td class="foodTd"><button class="foodB" ><pre class="pre"><h1 class="foodName">Shawarma Burger</h1> 
+     <img class="foodImg" src="Shawarma Burger.jpg" width="100px" height="80px">
+     <h2 class="itemId">Item Code : B1009    </h2> 
+     <h2 class="priceTag">Discount  : -        </h2> 
+     <h2 class="priceTag">Pirce     : Rs. <a class="price">800</a>   </h2>
+ </pre></button>    
+ <div id="btnsArea">
+    <button id="c8" class="cartB">Cart</button>
+    <button  class="orderB">Order</button> </td> 
+    </div></td> </td> 
+
+ <td class="foodTd"><button class="foodB" ><pre class="pre"><h1 class="foodName">Olive Burger</h1> 
+     <img class="foodImg" src="Olive Burger.jpg" width="100px" height="80px">
+     <h2 class="itemId">Item Code : B1010     </h2> 
+     <h2 class="priceTag">Discount  : -         </h2>  
+     <h2 class="priceTag">Pirce     :  Rs.<a class="price">1800</a>  </h2>   
+ </pre></button>
+ <div id="btnsArea">
+    <button id="c9" class="cartB">Cart</button>
+    <button  class="orderB">Order</button> </td> 
+    </div></td> </td> 
+
+ </tr>
+
+ <!--tr-->
+ <tr>
+    <td class="foodTd"><button class="foodB" ><pre class="pre"><h1 class="foodName">Double-Cheese<br> Burger</h1> 
+     <img class="foodImg" src="Double-Cheese Burger.jpg" width="100px" height="80px">
+     <h2 class="itemId">Item Code : B1012    </h2> 
+     <h2 class="priceTag">Discount  : 20%      </h2> 
+     <h2 class="priceTag">Pirce:<del class="delete">Rs.1250</del> Rs.<a class="price">1000</a></h2>   
+ </pre></button>
+ <div id="btnsArea">
+    <button id="c10" class="cartB">Cart</button>
+    <button  class="orderB">Order</button> </td> 
+    </div></td> </td> 
+
+ <td class="foodTd"><button class="foodB" ><pre class="pre"><h1 class="foodName">Crispy Chicken<br> Burger(Regular)</h1> 
+     <img class="foodImg" src="Chicken Burger.jpg" width="100px" height="80px">
+     <h2 class="itemId">Item Code : B1013     </h2> 
+     <h2 class="priceTag">Discount  : -         </h2>  
+     <h2 class="priceTag">Pirce     :  Rs.<a class="price">1200</a>  </h2>   
+ </pre></button>
+ <div id="btnsArea">
+    <button id="c11" class="cartB">Cart</button>
+    <button  class="orderB">Order</button> </td> 
+    </div></td> </td> 
+
+ </tr>
+
+  <!--tr-->
+  <tr>
+    <td class="foodTd"><button class="foodB" ><pre class="pre"><h1 class="foodName">Crispy Chicken<br> Burger(Large)</h1> 
+     <img id="NfoodImg" src="Chicken Burger.jpg" width="100px" height="80px">
+     <h2 class="itemId">Item Code : B1014    </h2> 
+     <h2 class="priceTag">Discount  : 10%      </h2> 
+     <h2 class="priceTag">Pirce:<del class="delete">Rs.1600</del> Rs.<a class="price">1440</a></h2>   
+ </pre></button>
+ <div id="btnsArea">
+    <button id="c12" class="cartB">Cart</button>
+    <button  class="orderB">Order</button> </td> 
+    </div></td> </td> 
+
+
+ <td class="foodTd"><button class="foodB" ><pre class="pre"><h1 class="foodName">Paneer Burger<br> </h1> 
+     <img class="foodImg" src="Chicken Burger.jpg" width="100px" height="80px">
+     <h2 class="itemId">Item Code : B1015     </h2> 
+     <h2 class="priceTag">Discount  : -         </h2>  
+     <h2 class="priceTag">Pirce     :  Rs.<a class="price">900 </a>  </h2>   
+ </pre></button>
+ <div id="btnsArea">
+    <button id="c13" class="cartB">Cart</button>
+    <button  class="orderB">Order</button> </td> 
+    </div></td> </td> 
+
+ </tr>
+
+</table>
+
+<!--submarine-->
+
+<table id="Mtbl01">
+    
+    <tr>
+
+       <td class="foodTd"><button class="foodB" ><pre class="pre"><h1 class="foodName">Crispy Chicken<br>Submarine(Large)</h1> 
+        <img id="NfoodImg01" class="foodImg" src="Chicken Burger.jpg" width="100px" height="80px">
+        <h2 class="itemId">Item Code : B1016    </h2> 
+        <h2 class="priceTag">Discount  : -        </h2> 
+        <h2 class="priceTag">Pirce     : Rs.<a class="price">2000</a>  </h2>  
+    </pre></button> <div id="btnsArea">
+        <button id="c14" class="cartB">Cart</button>
+        <button  class="orderB">Order</button> </td> 
+        </div></td> </td> 
+
+    <td class="foodTd"><button class="foodB" ><pre class="pre" ><h1 class="foodName">Crispy Chicken<br>Submarine(Regular)</h1> 
+        <img id="NfoodImg02" class="foodImg" src="Chicken Burger.jpg" width="100px" height="80px">
+        <h2 class="itemId">Item Code : B1017     </h2> 
+        <h2 class="priceTag">Discount  : -         </h2>  
+        <h2 class="priceTag">Pirce     : Rs. <a class="price">1500</a>   </h2>  
+    </pre></button>
+    <div id="btnsArea">
+        <button id="c15"  class="cartB">Cart</button>
+        <button  class="orderB">Order</button> </td> 
+        </div></td> </td> </td> 
+
+    </tr>
+
+<!--tr-->
+
+<tr>
+    <td class="foodTd"><button class="foodB" ><pre class="pre"><h1 class="foodName">Chicken Submarine<br> (Large)</h1> 
+     <img class="foodImg" src="classicBurger.jpg" width="100px" height="80px">
+     <h2 class="itemId">Item Code : B1018    </h2> 
+     <h2 class="priceTag">Discount  : 3%       </h2> 
+     <h2 class="priceTag">Pirce:<del class="delete">Rs.1800</del> Rs.<a class="price">1746</a></h2>
+ </pre></button>
+ <div id="btnsArea">
+    <button id="c16"  class="cartB">Cart</button>
+    <button  class="orderB">Order</button> </td> 
+    </div></td> </td> </td> 
+
+ <td  class="foodTd"><button class="foodB" ><pre class="pre" ><h1 class="foodName">Chicken Submarine<br> (Regular)</h1> 
+     <img class="foodImg" src="classicBurger.jpg" width="100px" height="80px">
+     <h2 class="itemId">Item Code : B1019     </h2> 
+     <h2 class="priceTag">Discount  : -         </h2>  
+     <h2 class="priceTag">Pirce     : Rs.<a class="price">1400</a>   </h2>  
+ </pre></button>
+ <div id="btnsArea">
+    <button id="c17"  class="cartB">Cart</button>
+    <button  class="orderB">Order</button> </td> 
+    </div></td> 
+
+ </tr>
+
+ <!--tr-->
+
+<tr>
+    <td class="foodTd"><button class="foodB" ><pre class="pre"><h1 class="foodName">Grinder Submarine</h1> 
+     <img class="foodImg" src="Turkey Burger.jpg" width="100px" height="80px">
+     <h2 class="itemId">Item Code : B1020    </h2> 
+     <h2 class="priceTag">Discount  : -        </h2> 
+     <h2 class="priceTag">Pirce     : Rs.<a class="price">2300</a>  </h2>
+ </pre></button>
+ <div id="btnsArea">
+    <button id="c18" class="cartB">Cart</button>
+    <button  class="orderB">Order</button> </td> 
+    </div></td> 
+
+ <td class="foodTd"><button class="foodB" ><pre class="pre" ><h1 class="foodName">Cheese Submarine</h1> 
+     <img class="foodImg" src="Cheese Burger.jpg" width="100px" height="80px">
+     <h2 class="itemId">Item Code : B1021     </h2> 
+     <h2 class="priceTag">Discount  : -         </h2>  
+     <h2 class="priceTag">Pirce     : Rs.<a class="price">2200</a>   </h2>  
+ </pre></button>
+ <div id="btnsArea">
+    <button id="c19" class="cartB">Cart</button>
+    <button  class="orderB">Order</button> </td> 
+    </div></td> 
+
+ </tr>
+
+ 
+ <!--tr-->
+
+<tr>
+    <td class="foodTd"><button class="foodB" ><pre class="pre"><h1 class="foodName">Double Cheese<br>Chicken Submarine</h1> 
+     <img id="NfoodImg03" class="foodImg" src="Double-Cheese Burger.jpg" width="100px" height="80px">
+     <h2 class="itemId">Item Code : B1022    </h2> 
+     <h2 class="priceTag">Discount  : 16%      </h2> 
+     <h2 class="priceTag">Pirce:<del class="delete">Rs.1900</del> Rs.<a class="price">1596</a></h2>
+ </pre></button>
+ <div id="btnsArea">
+    <button id="c20" class="cartB">Cart</button>
+    <button  class="orderB">Order</button> </td> 
+    </div></td> 
+
+ <td class="foodTd"><button class="foodB" ><pre class="pre" ><h1 class="foodName">Special Horgie<br> Submarine</h1> 
+     <img id="NfoodImg02" class="foodImg" src="Bacon Burger.jpg" width="100px" height="80px">
+     <h2 class="itemId">Item Code : B1023     </h2> 
+     <h2 class="priceTag">Discount  : -         </h2>  
+     <h2 class="priceTag">Pirce     : Rs. <a class="price">2800</a>   </h2>  
+ </pre></button>
+ <div id="btnsArea">
+    <button id="c21"  class="cartB">Cart</button>
+    <button  class="orderB">Order</button> </td> 
+    </div></td> 
+
+ </tr>
+
+  <!--tr-->
+
+<tr>
+    <td class="foodTd"><button class="foodB" ><pre class="pre"><h1 class="foodName">MOS Special Submarine</h1> 
+     <img class="foodImg" src="Shawarma Burger.jpg" width="100px" height="80px">
+     <h2 class="itemId">Item Code : B1024    </h2> 
+     <h2 class="priceTag">Discount  : 16%      </h2> 
+     <h2 class="priceTag">Pirce     : Rs.<a class="price">3000</a>  </h2>
+ </pre></button>
+ <div id="btnsArea">
+    <button id="c22" class="cartB">Cart</button>
+    <button  class="orderB">Order</button> </td> 
+    </div></td> 
+
+</table>
+
+<!--fries-->
+
+<table id="Mtbl02">
+    <tr>
+       <td class="foodTd"><button class="foodB" ><pre class="pre"><h1 class="foodName">Steak Fries(Large)</h1> 
+        <img class="foodImg" src="Steak Fries.jpg" width="100px" height="80px">
+        <h2 class="itemId">Item Code : B1025    </h2> 
+        <h2 class="priceTag">Discount  : -        </h2> 
+        <h2 class="priceTag">Pirce     : Rs.<a class="price">1200</a>  </h2>  
+    </pre></button>
+    <div id="btnsArea">
+        <button id="c23" class="cartB">Cart</button>
+        <button  class="orderB">Order</button> </td> 
+        </div></td> 
+
+    <td class="foodTd"><button class="foodB" ><pre class="pre" ><h1 class="foodName">Steak Fries(Medium)</h1> 
+        <img  class="foodImg" src="Steak Fries.jpg" width="100px" height="80px">
+        <h2 class="itemId">Item Code : B1026     </h2> 
+        <h2 class="priceTag">Discount  : -         </h2>  
+        <h2 class="priceTag">Pirce     : Rs.<a class="price">600 </a>   </h2>  
+    </pre></button>
+    <div id="btnsArea">
+        <button id="c24" class="cartB">Cart</button>
+        <button  class="orderB">Order</button> </td> 
+        </div></td> 
+    </tr>
+
+<!--tr-->
+
+<tr>
+    <td class="foodTd"><button class="foodB" ><pre class="pre"><h1 class="foodName">French Fries(Large)</h1> 
+     <img class="foodImg" src="French Fries.jpg" width="100px" height="80px">
+     <h2 class="itemId">Item Code : B1027    </h2> 
+     <h2 class="priceTag">Discount  : -        </h2> 
+     <h2 class="priceTag">Pirce     : Rs.<a class="price">800 </a>  </h2>  
+ </pre></button>
+ <div id="btnsArea">
+    <button id="c25" class="cartB">Cart</button>
+    <button  class="orderB">Order</button> </td> 
+    </div></td> 
+
+ <td class="foodTd"><button class="foodB" ><pre class="pre" ><h1 class="foodName">French Fries(Medium)</h1> 
+     <img  class="foodImg" src="French Fries.jpg" width="100px" height="80px">
+     <h2 class="itemId">Item Code : B1028     </h2> 
+     <h2 class="priceTag">Discount  : -         </h2>  
+     <h2 class="priceTag">Pirce     : Rs.<a class="price">650 </a>   </h2>  
+ </pre></button>
+ <div id="btnsArea">
+    <button id="c26" class="cartB">Cart</button>
+    <button  class="orderB">Order</button> </td> 
+    </div></td> 
+
+ </tr>
+
+<!--tr-->
+
+<tr>
+    <td class="foodTd"><button class="foodB" ><pre class="pre"><h1 class="foodName">French Fries(Small) </h1> 
+     <img class="foodImg" src="French Fries.jpg" width="100px" height="80px">
+     <h2 class="itemId">Item Code : B1029    </h2> 
+     <h2 class="priceTag">Discount  : -        </h2> 
+     <h2 class="priceTag">Pirce     : Rs.<a class="price">450 </a>  </h2>  
+ </pre></button>
+ <div id="btnsArea">
+    <button id="c27" class="cartB">Cart</button>
+    <button  class="orderB">Order</button> </td> 
+    </div></td> 
+
+ <td class="foodTd"><button class="foodB" ><pre class="pre" ><h1 class="foodName">Sweet Potato Fries(Large)</h1> 
+     <img  class="foodImg" src="Sweet Potato Fries.jpg" width="100px" height="80px">
+     <h2 class="itemId">Item Code : B1030     </h2> 
+     <h2 class="priceTag">Discount  : -         </h2>  
+     <h2 class="priceTag">Pirce     : Rs.<a class="price">600 </a>   </h2>  
+ </pre></button>
+ <div id="btnsArea">
+    <button id="c28" class="cartB">Cart</button>
+    <button  class="orderB">Order</button> </td> 
+    </div></td> 
+
+ </tr>
+
+</table>
+
+<!--pasta-->
+
+<table id="Mtbl03">
+    <tr>
+       <td class="foodTd"><button class="foodB" ><pre class="pre"><h1 class="foodName">Chicken n Cheese Pasta</h1> 
+        <img  class="foodImg" src="Chicken n Cheese Pasta.jpg" width="100px" height="80px">
+        <h2 class="itemId">Item Code : B1031    </h2> 
+        <h2 class="priceTag">Discount  : 15%      </h2> 
+        <h2 class="priceTag">Pirce : <del class="delete">Rs.1600</del> Rs.<a class="price">1440</a></h2> 
+    </pre></button>
+    <div id="btnsArea">
+        <button id="c29" class="cartB">Cart</button>
+        <button  class="orderB">Order</button> </td> 
+        </div></td> 
+
+    <td class="foodTd"><button class="foodB" ><pre class="pre" ><h1 class="foodName">Chicken Penne Pasta</h1> 
+        <img  class="foodImg" src="Chicken Penne Pasta.jpg" width="100px" height="80px">
+        <h2 class="itemId">Item Code : B1032     </h2> 
+        <h2 class="priceTag">Discount  : -         </h2>  
+        <h2 class="priceTag">Pirce     : Rs.<a class="price">1700</a>     </h2>  
+    </pre></button>
+    <div id="btnsArea">
+        <button id="c30" class="cartB">Cart</button>
+        <button  class="orderB">Order</button> </td> 
+        </div></td> 
+
+    </tr>
+
+<!--tr-->
+
+<tr>
+    <td class="foodTd"><button class="foodB" ><pre class="pre"><h1 class="foodName">Ground Turkey Pasta Bake</h1> 
+     <img  class="foodImg" src="Ground Turkey Pasta Bake.jpg" width="100px" height="80px">
+     <h2 class="itemId">Item Code : B1033    </h2> 
+     <h2 class="priceTag">Discount  : 10%      </h2> 
+     <h2 class="priceTag">Pirce : <del class="delete">Rs.2900</del> Rs.<a class="price">1610</a></h2> 
+ </pre></button>
+ <div id="btnsArea">
+    <button id="c31" class="cartB">Cart</button>
+    <button  class="orderB">Order</button> </td> 
+    </div></td> 
+
+ <td class="foodTd"><button class="foodB" ><pre class="pre" ><h1 class="foodName">Creamy Shrimp Pasta</h1> 
+     <img  class="foodImg" src="Creamy Shrimp Pasta.jpg" width="100px" height="80px">
+     <h2 class="itemId">Item Code : B1034       </h2> 
+     <h2 class="priceTag">Discount  : -         </h2>  
+     <h2 class="priceTag">Pirce     : Rs.<a class="price">2000 </a>  </h2>  
+ </pre></button>
+ <div id="btnsArea">
+    <button id="c32"  class="cartB">Cart</button>
+    <button  class="orderB">Order</button> </td> 
+    </div></td> 
+
+ </tr>
+
+<!--tr-->
+
+<tr>
+    <td class="foodTd"><button class="foodB" ><pre class="pre"><h1 class="foodName">Lemon Butter Pasta</h1> 
+     <img  class="foodImg" src="Lemon Butter Pasta.jpg" width="100px" height="80px">
+     <h2 class="itemId">Item Code : B1035      </h2> 
+     <h2 class="priceTag">Discount  : -        </h2> 
+     <h2 class="priceTag">Pirce     : Rs.<a class="price">1950</a>  </h2> 
+ </pre></button>
+ <div id="btnsArea">
+    <button id="c33" class="cartB">Cart</button>
+    <button  class="orderB">Order</button> </td> 
+    </div></td> 
+
+ <td class="foodTd"><button class="foodB" ><pre class="pre" ><h1 class="foodName">Tagliatelle Pasta</h1> 
+     <img  class="foodImg" src="Tagliatelle Pasta.jpg" width="100px" height="80px">
+     <h2 class="itemId">Item Code : B1036       </h2> 
+     <h2 class="priceTag">Discount  : 1%        </h2>  
+     <h2 class="priceTag">Pirce:<del class="delete">Rs.2400</del> Rs.<a class="price">2376</a></h2>  
+ </pre></button>
+ <div id="btnsArea">
+    <button id="c34" class="cartB">Cart</button>
+    <button  class="orderB">Order</button> </td> 
+    </div></td> 
+
+ </tr>
+
+<!--tr-->
+
+<tr>
+    <td class="foodTd"><button class="foodB" ><pre class="pre"><h1 class="foodName">Baked Ravioli</h1> 
+     <img  class="foodImg" src="Baked Ravioli.jpg" width="100px" height="80px">
+     <h2 class="itemId">Item Code : B1037      </h2> 
+     <h2 class="priceTag">Discount  : 1%       </h2> 
+     <h2 class="priceTag">Pirce:<del class="delete">Rs.2000</del> Rs.<a class="price">1980</a></h2> 
+ </pre></button>
+ <div id="btnsArea">
+    <button id="c35" class="cartB">Cart</button>
+    <button  class="orderB">Order</button> </td> 
+    </div></td> 
+
+</table>
+
+<!--chicken-->
+
+<table id="Mtbl04">
+    <tr>
+       <td class="foodTd"><button class="foodB" ><pre class="pre"><h1 class="foodName">Fried Chicken(Small)</h1> 
+        <img  class="foodImg" src="Fried Chicken (Small).jpg" width="100px" height="80px">
+        <h2 class="itemId">Item Code  : B1038     </h2> 
+        <h2 class="priceTag">Discount  : -        </h2> 
+        <h2 class="priceTag">Pirce     : Rs.<a class="price">1200 </a> </h2> 
+    </pre></button>
+    <div id="btnsArea">
+        <button id="c36"  class="cartB">Cart</button>
+        <button  class="orderB">Order</button> </td> 
+        </div></td> 
+
+    <td class="foodTd"><button class="foodB" ><pre class="pre" ><h1 class="foodName">Fried Chicken(Regular)</h1> 
+        <img  class="foodImg" src="Fried Chicken (Small).jpg" width="100px" height="80px">
+        <h2 class="itemId">Item Code  : B1039      </h2> 
+        <h2 class="priceTag">Discount  : 10%       </h2>  
+        <h2 class="priceTag">Pirce:<del class="delete">Rs.2300</del> Rs.<a class="price">2070</a></h2>
+    </pre></button>
+    <div id="btnsArea">
+        <button id="c37" class="cartB">Cart</button>
+        <button  class="orderB">Order</button> </td> 
+        </div></td> 
+
+    </tr>
+
+<!--tr-->
+
+<tr>
+    <td class="foodTd"><button class="foodB" ><pre class="pre"><h1 class="foodName">Fried Chicken(Large)</h1> 
+     <img  class="foodImg" src="Fried Chicken (Small).jpg" width="100px" height="80px">
+     <h2 class="itemId">Item Code : B1040      </h2> 
+     <h2 class="priceTag">Discount  : 5%       </h2> 
+     <h2 class="priceTag">Pirce:<del class="delete">Rs.3100</del> Rs.<a class="price">2945</a></h2>
+ </pre></button>
+ <div id="btnsArea">
+    <button id="c38" class="cartB">Cart</button>
+    <button  class="orderB">Order</button> </td> 
+    </div></td> 
+
+ <td class="foodTd"><button class="foodB" ><pre class="pre" ><h1 class="foodName">Hot Wings(Large)</h1> 
+     <img  class="foodImg" src="Hot Wings.jpg" width="100px" height="80px">
+     <h2 class="itemId">Item Code : B1041      </h2> 
+     <h2 class="priceTag">Discount  : -        </h2>  
+     <h2 class="priceTag">Pirce     : Rs.<a class="price">2400</a>     </h2>
+ </pre></button>
+ <div id="btnsArea">
+    <button id="c39" class="cartB">Cart</button>
+    <button  class="orderB">Order</button> </td> 
+    </div></td> 
+
+ </tr>
+
+<!--tr-->
+
+<tr>
+    <td class="foodTd"><button class="foodB" ><pre class="pre"><h1 class="foodName">Devilled Chicken(Large)</h1> 
+     <img  class="foodImg" src="Devilled Chicken.jpg" width="100px" height="80px">
+     <h2 class="itemId">Item Code : B1042      </h2> 
+     <h2 class="priceTag">Discount  : -        </h2> 
+     <h2 class="priceTag">Pirce     : Rs.<a class="price">900 </a>  </h2>
+ </pre></button>
+ <div id="btnsArea">
+    <button id="c40" class="cartB">Cart</button>
+    <button  class="orderB">Order</button> </td> 
+    </div></td> 
+
+ <td class="foodTd"><button class="foodB" ><pre class="pre" ><h1 class="foodName">BBQ Chicken(Regular)</h1> 
+     <img  class="foodImg" src="BBQ Chicken.jpg" width="100px" height="80px">
+     <h2 class="itemId">Item Code : B1043      </h2> 
+     <h2 class="priceTag">Discount  : -        </h2>  
+     <h2 class="priceTag">Pirce     : Rs.<a class="price">2100</a>     </h2>
+ </pre></button>
+ <div id="btnsArea">
+    <button id="c41"  class="cartB">Cart</button>
+    <button  class="orderB">Order</button> </td> 
+    </div></td> 
+
+ </tr>
+
+ </table>
+
+<!--beverages-->
+
+ <table id="Mtbl05">
+    <tr>
+       <td class="foodTd"><button class="foodB" ><pre class="pre"><h1 class="foodName">Pepsi (330ml)</h1> 
+        <img  class="foodImg" src="Pepsi (330ml).jpg" width="100px" height="80px">
+        <h2 class="itemId">Item Code : B1044   </h2> 
+        <h2 class="priceTag">Discount  : 5%       </h2> 
+        <h2 class="priceTag">Pirce:<del class="delete">Rs.990</del> Rs.<a class="price">940.5</a></h2>
+    </pre></button>
+    <div id="btnsArea">
+        <button id="c42" class="cartB">Cart</button>
+        <button  class="orderB">Order</button> </td> 
+        </div></td> 
+
+    <td class="foodTd"><button class="foodB" ><pre class="pre" ><h1 class="foodName">Coca-Cola (330ml)</h1> 
+        <img  class="foodImg" src="Coca-Cola (330ml).jpg" width="100px" height="80px">
+        <h2 class="itemId">Item Code : B1045     </h2> 
+        <h2 class="priceTag">Discount  : -         </h2>  
+        <h2 class="priceTag">Pirce     : Rs.<a class="price">1230 </a>  </h2>
+    </pre></button>
+    <div id="btnsArea">
+        <button id="c43"  class="cartB">Cart</button>
+        <button  class="orderB">Order</button> </td> 
+        </div></td> 
+
+<!--tr-->
+<tr>
+    <td class="foodTd"><button class="foodB" ><pre class="pre"><h1 class="foodName">Sprite (330ml)</h1> 
+     <img  class="foodImg" src="Sprite (330ml).jpg" width="100px" height="80px">
+     <h2 class="itemId">Item Code : B1046    </h2> 
+     <h2 class="priceTag">Discount  : 3%       </h2> 
+     <h2 class="priceTag">Pirce:<del class="delete">Rs.1500</del> Rs.<a class="price">1455</a></h2>
+ </pre></button>
+ <div id="btnsArea">
+    <button id="c44" class="cartB">Cart</button>
+    <button  class="orderB">Order</button> </td> 
+    </div></td> 
+
+ <td class="foodTd"><button class="foodB" ><pre class="pre" ><h1 class="foodName">Mirinda (330ml)</h1> 
+     <img  class="foodImg" src="Mirinda (330ml).jpg" width="100px" height="80px">
+     <h2 class="itemId">Item Code : B1047     </h2> 
+     <h2 class="priceTag">Discount  : 7%        </h2>  
+     <h2 class="priceTag">Pirce:<del class="delete">Rs.850</del> Rs.<a class="price">790.5</a></h2>
+ </pre></button>
+ <div id="btnsArea">
+    <button id="c45" class="cartB">Cart</button>
+    <button  class="orderB">Order</button> </td> 
+    </div></td> 
+
+ </tr>
+
+ </table>
+
+
+<script>
+       function Function(){
+            window.open("menu.html");
+        }
+        function Function1(){
+            window.open("login.html","_blank")
+        }
+        function Function2(){
+            window.open("aboutUs.html","_blank")
+        }
+        function Function3(){
+            window.open("contact.html","_blank")
+        }
+        function Function4(){
+            window.open("KidsM.html","_blank")
+        }
+        function Function5(){
+            window.open("cart.html","_blank")
+        }
+        function Function6(){
+            window.open("BookTable.html","_blank")
+        }
+        function Function7(){
+            window.open("order.html","_blank")
+        }
+
+
+</script>
+    
+    <script src="https://kit.fontawesome.com/d3e2be56a2.js" crossorigin="anonymous"></script>
+    <script src="slider.js" ></script>
+   
+</body>
+</html>

@@ -1,0 +1,35 @@
+#customerM{
+    background-color: blue;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    font-weight: 900;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#customerM:hover{
+    background-color: white;
+    color: black;
+}
+
+#reportG{
+    background-color:orangered;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    font-weight: 900;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+#reportG:hover{
+    background-color: white;
+    color: black;
+}
+#move{
+    margin-left: 25%;
+    margin-top: 20%;
+}
+

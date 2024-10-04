@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Satisfy&family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+
+
+body{
+    background-image: url(cartBg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.B3{
+    background-color: black;
+    color: azure;
+    padding: 20px 30px;
+    font-family: "Kalam", cursive;
+    font-size: larger;
+    font-weight: 900;
+    border-radius: 5px;
+    box-shadow: 15px 15px 12px  rgb(118, 85, 24);
+   
+}
+.B3:hover{
+    box-shadow: 15px 15px 12px  black;
+    background-color: red;
+    
+}
+
+.B2{
+    border-style: dashed;
+    font-weight: 900;
+    font-size: xx-large;
+    padding: 25px 60px;
+    background-color:red;
+    font-family: "Poetsen One", sans-serif;
+    border-radius: 80px;
+    margin-left: 80px;
+   
+}
+.B2:hover{
+    background-color:black ;
+    color: aliceblue;
+    cursor: pointer;
+
+}
+
+
+#buttons{
+    position: absolute;
+    top:200px;
+    left: 25%;
+   
+ }
+
+ .B{
+    font-family: "Jaro", sans-serif;
+    font-size: 30px;
+    border: none;
+    margin-right: 40px;
+    text-decoration: none;
+    color: black;
+
+}
+.B:hover{
+    text-decoration: underline red 7px;
+
+}
+
+#icon{
+    margin-left: 80px;
+    margin-top: 50px;
+}
+#img{
+    border-radius: 20px;
+}
+#rname{
+    background-color: rgb(0, 0, 0,0.5);
+    color: darkgoldenrod;
+    position: absolute;
+    padding-right:50% ;
+    margin-top: 20px;
+}
+
+
+#data{
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: 900;
+}
+
+#price{
+    position: absolute;
+    background-color: grey;
+    border: 1;
+    padding: 10px 40px 10px 10px;
+    border-radius: 10px;
+    top: 65%;
+    left: 20%;
+}
+
+#seeOrders{
+    background-color: blue;
+    color:white;
+    font-size:x-large;
+    font-weight: 900;
+    font-style: italic;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-left: 72%;
+    box-shadow: 10px 10px 10px black;
+    cursor: pointer;
+}
+
+#seeOrders:hover{
+    background-color: wheat;
+    color: black;
+    box-shadow: 10px 10px 10px blue;
+}
+
+#seeOr{
+    background-color: rgb(0, 158, 91);
+    padding: 20px;
+}
+
+#cd{
+    background-color: blue;
+    color: black;
+    font-size: 22px;
+    font-weight: 900;
+    font-family: "Poetsen One", sans-serif;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#cd:hover{
+    background-color: white;
+    color: black;
+}
+
+#od{
+    background-color: orange;
+    color: black;
+    font-size: 22px;
+    font-weight: 900;
+    padding: 8px 10px;
+    font-family: "Poetsen One", sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#od:hover{
+    background-color: white;
+    color: black;
+}
+
+
+#take{
+    background-color: black;
+    color: azure;
+    padding: 20px 30px;
+    font-family: "Kalam", cursive;
+    font-size: larger;
+    font-weight: 900;
+    border-radius: 5px;
+    box-shadow: 15px 15px 12px  rgb(118, 85, 24);
+    margin-top: 40%;
+    margin-left: 75%;
+    margin-bottom: 40px;
+    cursor: pointer;
+   
+}
+
+#take:hover{
+    box-shadow: 15px 15px 12px  black;
+    background-color: red;
+}
+#aboutO{
+    position: absolute;
+    font-size: 26px;
+    font-weight: 900;
+    background-color: rgb(24, 60, 101);
+    color: white;
+    padding-top: 20px;
+    border-radius: 10px;
+    top: 80%;
+    left: 25%;
+  
+}
+#x{
+    position: absolute;
+    top: 83%;
+    left: 60%;
+    padding: 5px 10px;
+    font-size: large;
+    font-weight: 900;
+    background-color: red;
+    border-radius: 5px;
+    z-index: 1;
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}

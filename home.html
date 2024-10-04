@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="style02.css">
+    <link rel="icon" href="logo.jpg">
+</head>
+<body>
+    <img id="img" src="logo.jpg" width="140">
+    <h1 id="rname">MOS Burgers</h1>
+    <div id="buttons2">
+        <a href="#" class="B2" onclick="Function()">Menue</a>
+        <a href="#" class="B2" onclick="Function1()">Sign-Up</a>
+        <a href="#" class="B2" onclick="Function2()">About us</a>
+        <a href="#" class="B2" onclick="Function3()">Contact us</a>
+        <a href="#" class="B2" onclick="Function4()">Admin</a>
+        <button  id="cart" onclick="Function5()"><i id="ca" class="fa-solid fa-cart-shopping"></i>  Cart</button>
+        <button class="B3" id="book" onclick="Function6()"><i class="fa fa-cutlery" aria-hidden="true"></i>  Book a Table</button>
+        <button class="B3" id="de" onclick="Function7()"><i class="fa-solid fa-bag-shopping"></i>   Order</button>
+    </div>
+    <div id="buttons">
+        <button class="B" onclick="Function()">Menue</button>
+        <button class="B" onclick="Function6()">Book a Table</button>
+        <button class="B" onclick="Function8()">Delivery</button>
+        <button class="B" onclick="Function2()">About us</button>
+        <button class="B" onclick="Function3()">Contact us</button>
+    </div>
+    <h1 id="hd">Delicious Burgers</h1>
+    <img style="padding: 20px; background-color: black; position: absolute; top: 22%; right: 8%;" id="imgS" name="imgc" width="500" height="300">  
+    <script>
+
+let i=0;
+let ImgArray=[]
+
+ImgArray[0]=`offer.jpg`
+ImgArray[1]=`offer01.jpg`
+ImgArray[2]=`offer02.jpeg`
+ImgArray[3]=`offer03.jpg`
+
+function changeIMG(){
+    document.imgc.src=ImgArray[i]
+    if(i<ImgArray.length-1){
+        i++;
+    }
+    else{
+        i=0;
+    }
+    setTimeout("changeIMG()",3000);
+}
+
+
+window.onload=changeIMG
+
+
+        function Function(){
+            window.open("menu.html");
+        }
+        function Function1(){
+            window.open("login.html","_blank")
+        }
+        function Function2(){
+            window.open("aboutUs.html","_blank")
+        }
+        function Function3(){
+            window.open("contact.html","_blank")
+        }
+        function Function4(){
+            window.open("admin.html","_blank")
+        }
+        function Function5(){
+            window.open("cart.html","_blank")
+        }
+        function Function6(){
+            window.open("BookTable.html","_blank")
+        }
+        function Function7(){
+            window.open("order.html","_blank")
+        }
+        function Function8(){
+            window.open("delivery.html","_blank")
+        }
+    </script>
+    
+    <script src="https://kit.fontawesome.com/d3e2be56a2.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>

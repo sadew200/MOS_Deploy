@@ -1,0 +1,58 @@
+body{
+    background-image: url(deliveryB.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+label{
+    position: absolute;
+    color:goldenrod;
+    font-size: 24px;
+    top: 4%;
+    margin-left: 100px;
+}
+.input{
+   
+    font-size: large;
+    padding: 15px 10px;
+    font-style: oblique;
+    margin-top: 4%;
+    margin-left: 90px;
+ 
+}
+#move{
+    background-color: rgb(0, 0, 0,0.5);
+    padding-bottom: 30px;
+}
+#submit{
+    font-size: 20px;
+    background-color: greenyellow;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 25px;
+    color:rgb(9, 9, 220);
+
+}
+#submit:hover{
+    background-color: aliceblue;
+    color: black;
+    cursor: pointer;
+}
+#about{
+    color:black;
+    font-size: x-large;
+    margin-right: 50%;
+    margin-left: 5%;
+    margin-top: 3%;
+    text-align: justify;
+    font-family: cursive;
+    background-color:azure;
+    padding: 30px;
+    border-radius: 20px;
+}
+#hd{
+    color:cornflowerblue;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

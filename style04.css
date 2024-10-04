@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Satisfy&family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+
+
+body{
+    background-image: url(orderB.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ .B3{
+    background-color: black;
+    color: azure;
+    padding: 20px 30px;
+    font-family: "Kalam", cursive;
+    font-size: larger;
+    font-weight: 900;
+    border-radius: 5px;
+    box-shadow: 15px 15px 12px  rgb(118, 85, 24);
+   
+}
+.B3:hover{
+    box-shadow: 15px 15px 12px  black;
+    background-color: red;
+    
+}
+
+.B2{
+    border-style: dashed;
+    font-weight: 900;
+    font-size: xx-large;
+    padding: 25px 60px;
+    background-color:red;
+    font-family: "Poetsen One", sans-serif;
+    border-radius: 80px;
+    margin-left: 80px;
+   
+}
+.B2:hover{
+    background-color:black ;
+    color: aliceblue;
+    cursor: pointer;
+
+}
+#move{
+    margin-top: 100px;
+    margin-left: 20%;
+   
+}
+
+
+#buttons{
+    position: absolute;
+    top:140px;
+    left: 25%;
+   
+ }
+
+ .B{
+    font-family: "Jaro", sans-serif;
+    font-size: 30px;
+    border: none;
+    margin-right: 40px;
+    text-decoration: none;
+    color: black;
+
+}
+.B:hover{
+    text-decoration: underline red 7px;
+
+}
+
+#icon{
+    margin-left: 80px;
+    margin-top: 50px;
+}
+#img{
+    border-radius: 20px;
+}
+#rname{
+    background-color: rgb(0, 0, 0,0.5);
+    color: darkgoldenrod;
+    position: absolute;
+    padding-right:50% ;
+    margin-top: 20px;
+}
+
+#search{
+    margin-left: 40%;
+}
+
+#SEinput{
+    
+    font-size: x-large;
+    font-family: cursive;
+    font-weight: 900;
+    padding: 8px 10px;
+    border-radius: 5px;
+    margin-left: 20%;
+    margin-top: -5px;
+    position: fixed;
+    z-index: 1;
+}
+
+#SEbtn{
+   background-color: blue;
+   color: aliceblue;
+   font-size: x-large;
+   font-weight: 900;
+   font-style: italic;
+   padding: 10px 18px;
+   box-shadow: 10px 10px  black ;
+   margin-left: 43%;
+   margin-top: -10px;
+   cursor: pointer;
+   position: fixed;
+   z-index: 1;
+}
+
+#SEbtn:hover{
+    background-color: aliceblue;
+    color:  black;
+    box-shadow:10px 10px 10px blue;
+    font-family: "Pacifico", cursive;
+    
+}
+
+#tag{
+   font-style: oblique;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 150px;
+    margin-left: 80px;
+    color: blue;
+    font-weight: 900; color: red; text-decoration: underline;
+}
+
+#take{
+    margin-right:100px ;
+}
+
+#items{
+    margin-top: 50px;
+}
+
+#move2{
+    padding: 30px;
+    margin-top: 6%;
+    margin-right: 60%;
+    margin-left: 15%;
+    background-color: rgb(0, 0, 0,0.5);
+
+}
+label{
+    font-size: 30px;
+    font-weight: 900;
+    color:darkorange;
+    font-family: "Shadows Into Light", cursive;
+    margin-bottom: 10px;
+}
+.fromInput{
+    font-size: larger;
+    font-weight: 900;
+    font-style: oblique;
+    padding: 10px 20px;
+}
+
+#submit{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    background-color:blue;
+    color: azure;
+    padding: 8px 25px;
+    border-radius: 10px;
+    margin-left: 25%;
+    box-shadow: 10px 10px 10px brown;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: aliceblue;
+    color: black;
+    box-shadow: 10px 10px 10px black;
+}

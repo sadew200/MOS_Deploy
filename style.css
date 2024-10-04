@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poetsen+One&family=Satisfy&family=Sedan+SC&display=swap');
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  #content {
+    font-size: x-large;
+    position: fixed;
+    bottom: 30%;
+    background: rgb(0, 0, 0,0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+   font-style: oblique;
+  }
+  #welcome{
+    left: 30px;
+    font-size: 55px;
+    position: fixed;
+    color:blueviolet;
+    font-family: "Sedan SC", serif;
+  }
+
+  #all{
+    color: chartreuse;
+    bottom: 160px;
+    position: fixed;
+  }
+  #sign{
+    background-color: chocolate;
+    padding: 16px 60px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+   
+  }
+
+  #sign:hover{
+    background-color: aliceblue;
+    color:blue;
+    cursor: pointer;
+
+  }
+  #enjoy{
+    color: cadetblue;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    left: 65%;
+    top: 0px;
+
+  }
+
+#login{
+    background-color:darkblue;
+    border-radius: 10px;
+    padding: 16px 60px;
+    bottom: 90px;
+    left: 100px;
+   position: fixed;
+   color: aliceblue;
+   font-weight: bolder;
+   font-size:15px ;
+}
+#login:hover{
+    background-color: aliceblue;
+    color:blue;
+}
+#cus{
+    color: brown;
+    font-size: larger;
+    position: absolute;
+    bottom: 40px;
+    right: 5%;
+}
+#main{
+    color:gold;
+}

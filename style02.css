@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Permanent+Marker&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+body{
+    background-image: url(HomeB.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#buttons{
+    margin-top: 20%;
+    margin-left: 15%;
+
+  
+}
+
+.B{
+  
+    font-weight: 900;
+    font-size: xx-large;
+    padding: 25px 60px;
+    background-color:red;
+    font-family: "Amatic SC", sans-serif;
+    box-shadow: 15px 15px 5px black;
+    margin-left: 5px;
+   
+}
+.B:hover{
+    background-color:#000000 ;
+    color: aliceblue;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px gold;
+
+}
+#hd{
+    font-weight: 900;
+    font-size:55px ;
+    background-color: azure;
+font-family: "Permanent Marker", cursive;
+ position: absolute;
+ top:40%;
+ padding: 20px 100px;
+ left: 8%;
+ border-radius: 20px;
+}
+#img{
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+#rname{
+    margin-left: 90px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkgoldenrod;
+}
+
+.B2{
+    font-family: "Jaro", sans-serif;
+    font-size: 30px;
+    border: none;
+    margin-right: 40px;
+    text-decoration: none;
+    color: azure;
+
+}
+.B2:hover{
+    text-decoration: underline red 7px;
+
+}
+#buttons2{
+   position: absolute;
+   top:7%;
+   left: 20%;
+  
+}
+.B3{
+
+    background-color: black;
+    color: azure;
+    padding: 20px 30px;
+    font-family: "Kalam", cursive;
+    font-size: larger;
+    font-weight: 900;
+   
+}
+.B3:hover{
+    background-color: red;
+    
+}
+#cart{
+    border: none;
+    background-color: rgb(0, 0, 0,0);
+    padding: 10px 10px;
+    font-family: "Kalam", cursive;
+    font-size: xx-large;
+    font-weight: 900;
+    color: chartreuse;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 20px;
+
+}
+
+
+
+
+#cart:hover{
+    
+    color:darkorange;
+}

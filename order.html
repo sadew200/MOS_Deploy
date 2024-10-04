@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order page</title>
+    <link rel="stylesheet" href="styleO.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+</head>
+<body>
+    <div id="seeOr">
+        <button id="seeOrders" onclick="Function4()" >Watch Previous Orders</button>
+        </div>
+    <div id="icon">
+        <img id="img" src="logo.jpg" width="160">
+        <h1 id="rname">CARBONE</h1>
+        <table id="table">
+        <tr>
+            <td>
+    </td>    
+    </tr>
+        </table>
+    </div>
+        <div id="buttons">
+            <a href="#" class="B" onclick="Function()">Menue</a>
+            <a href="#" class="B" onclick="Function1()">Sign-Up</a>
+            <a href="#" class="B" onclick="Function2()">About us</a>
+            <a href="#" class="B" onclick="Function3()">Contact us</a>
+    
+        </div>
+
+
+    <div id="price">
+        <pre id="data">
+        order ID         : <a id="orderID"></a><br>
+        items You orders : <a id="Orderitems"></a><br>
+        You have saved   : <br>
+        Your Total       : <a id="total"></a> 
+        
+        </pre>
+        <button id="cd">Customer Details</button>
+        <button id="od">Order Details</button><br><br>
+    </div>
+
+        <button id="take" onclick="Function5()"><i class="fa-solid fa-bag-shopping"></i>  Get The Bill</button>
+        <div id="xArea"><button id="x">&times;</button></div>
+        <div id="aboutO" > </div>
+        <script src="https://kit.fontawesome.com/d3e2be56a2.js" crossorigin="anonymous"></script>
+        <script src="order.js"></script>
+
+        <script>
+            function Function(){
+         window.open("menu.html");
+     }
+     function Function1(){
+         window.open("login.html","_blank")
+     }
+     function Function2(){
+         window.open("aboutUs.html","_blank")
+     }
+     function Function3(){
+         window.open("contact.html","_blank")
+     }
+     function Function4(){
+         window.open("previousOrder.html","_blank")
+     }
+         
+ </script>
+
+</body>
+</html>
